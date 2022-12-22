@@ -9,8 +9,8 @@
 
 ## Getting started
 
-* [📪 Installer LEAV-Engine](getting-started/installer-leav-engine.md)
-* [🛠 Premiers paramètrages](getting-started/premiers-parametrages/README.md)
+* [🔴 Installer LEAV-Engine](getting-started/installer-leav-engine.md)
+* [🔵 Premiers paramètrages](getting-started/premiers-parametrages/README.md)
   * [📝 Setting permissions](getting-started/premiers-parametrages/setting-permissions.md)
   * [🧑 Inviting Members](getting-started/premiers-parametrages/inviting-members.md)
 
