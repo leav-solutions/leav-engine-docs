@@ -1,6 +1,6 @@
 # Table of contents
 
-* [👋 Bienvenue dans la documentation](README.md)
+* [Welcome to LEAV-Engine](README.md)
 
 ## Présentation générale
 
