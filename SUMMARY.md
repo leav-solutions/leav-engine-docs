@@ -4,8 +4,8 @@
 
 ## Présentation générale
 
-* [💡 La plateforme LEAV-Engine](presentation-generale/la-plateforme-leav-engine.md)
-* [✨ Principales fonctionnalités](presentation-generale/principales-fonctionnalites.md)
+* [La plateforme LEAV-Engine](presentation-generale/la-plateforme-leav-engine.md)
+* [Principales fonctionnalités](presentation-generale/principales-fonctionnalites.md)
 
 ## Getting started
 
