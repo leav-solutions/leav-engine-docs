@@ -1,33 +1,46 @@
+---
+description: >-
+  Cette documentation a pour objectif de vous aider a comprendre d'une part
+  LEAV-Engine, ces avantages et bénéfices mais aussi de repenser la conception
+  de base de données
+---
+
 # Welcome to LEAV-Engine
 
 
 
-{% hint style="info" %}
-**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
+## The little story of LEAV Engine
+
+Les principaux concepts de LEAV Engine ont été initié en 2001
+
+Depuis 1987 date à laquelle il termine ses études en communication, Didier Mombrun a créer plusieurs entreprises, toujours dans la communication mais toujours en lien avec les technologies.
+
+{% hint style="warning" %}
+Didier Mombrun est le fondateur de LEAV-Solutions et concepteur de LEAV-Engine et Data Studio
 {% endhint %}
 
-## Overview
+En 1995, il est dirigant d'une société de prepress et produit de nombreux catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'interesse à la possibilité de centraliser et stocker les données des produits dans une base de données pour alimenter avec les même informations validées l'ensemble des ces support.
 
-Here are a couple of example overviews from products with really great docs:
+Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Cette solution sera baptisé Knowbox. Alors qu'il ne connait pas de langage de programmation, Didier utilise divers outils pour créer l'architecture et les premières maquettes de sa solution, FileMaker mais également MySQL avec des outils graphique tels que PHPMyAdmin ont beaucoup contribuer à sa réflexion et très vite a concevoir des interfaces beaucoup plus conviviales.
 
-> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
->
-> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
->
-> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
+La révélation fut directement lié d'une part au manque de réactivité et au coûts impliqué par les développements sous traités à des développeurs. Alors que les premières interfaces de knowbox était en cours de recette, la première interface concernait la bibliothèque (Table des produits), celle-ci permettait de lister, filtrer, afficher et d'éditer chaque enregistrement. La deuxième interface était celle des Images (Visuels produits) et Documents (Notices, PDF...) avec les même fonctions de recherches, filtres et éditions.
 
-> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
->
-> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
+Lors de la recette, Didier constate des dysfonctionnement et demande au développeur de modifier un comportement sur la recherche et les filtres de la bibliothèque des produits. Lorsque la correction est effectué, il vérifie le bon fonctionnement, mais constate que le même problème n'est pas résolu sur la même fonction mais sur la bibliothèque des Images. En interrogant le développeur, celui-ci lui indique que ce n'est pas le même code et qu'il faudra non seulement attendre que la correction soit effectuée mais de payer le temps de travail associé.
+
+C'est a ce moment là que la nécessité de maitriser les coûts a été l'étape qui a fait basculer Knowbox dans une dimension différente et de ne coder qu'une seule fois toutes les fonctions communes et nécessaires à toutes les bibliothèque de la solution.
+
+Le premier problème était qu'a chaque besoin d'une nouvelle caractéristique et bien que le champs pouvait être créer directement en base, le développeur devait le connaitre dans son code et donc le déclarer.
+
+
 
 ## Quick links
 
-{% content-ref url="presentation-generale/la-plateforme-leav-engine.md" %}
-[la-plateforme-leav-engine.md](presentation-generale/la-plateforme-leav-engine.md)
+{% content-ref url="getting-started/introduction.md" %}
+[introduction.md](getting-started/introduction.md)
 {% endcontent-ref %}
 
-{% content-ref url="presentation-generale/principales-fonctionnalites.md" %}
-[principales-fonctionnalites.md](presentation-generale/principales-fonctionnalites.md)
+{% content-ref url="getting-started/data-model-concepts.md" %}
+[data-model-concepts.md](getting-started/data-model-concepts.md)
 {% endcontent-ref %}
 
 ## Get Started

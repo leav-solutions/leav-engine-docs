@@ -1,4 +1,4 @@
-# 🔴 Installer LEAV-Engine
+# Install LEAV-Engine
 
 ## Step 1 - Start journalling
 

@@ -1,31 +1,35 @@
 # Table of contents
 
-* [Welcome to LEAV-Engine](README.md)
-
 ## Présentation générale
 
-* [La plateforme LEAV-Engine](presentation-generale/la-plateforme-leav-engine.md)
-* [Principales fonctionnalités](presentation-generale/principales-fonctionnalites.md)
+* [Welcome to LEAV-Engine](README.md)
+* [Glossary](presentation-generale/glossary.md)
 
 ## Getting started
 
-* [🔴 Installer LEAV-Engine](getting-started/installer-leav-engine.md)
-* [🔵 Premiers paramètrages](getting-started/premiers-parametrages/README.md)
-  * [📝 Setting permissions](getting-started/premiers-parametrages/setting-permissions.md)
-  * [🧑 Inviting Members](getting-started/premiers-parametrages/inviting-members.md)
+* [Introduction](getting-started/introduction.md)
+* [Install LEAV-Engine](getting-started/install-leav-engine.md)
+* [Data model concepts](getting-started/data-model-concepts.md)
+* [Premiers paramètrages](getting-started/premiers-parametrages/README.md)
+  * [Setting permissions](getting-started/premiers-parametrages/setting-permissions.md)
+  * [Inviting Members](getting-started/premiers-parametrages/inviting-members.md)
 
-## Administration
+## Configuration
 
-* [🎨 Fondamentaux](administration/fondamentaux.md)
-* [🖥 Gestion des utilisateurs](administration/gestion-des-utilisateurs.md)
-* [🕶 Gestion du modèle de données](administration/gestion-du-modele-de-donnees.md)
-* [🤩 Gestion des applications](administration/gestion-des-applications.md)
+* [Overview](configuration/overview.md)
+* [Data model](configuration/data-model/README.md)
+  * [Library](configuration/data-model/library.md)
+  * [Entity](configuration/data-model/entity.md)
+  * [Attributs](configuration/data-model/attributs.md)
+* [Users & Groups structure](configuration/users-and-groups-structure/README.md)
+  * [Configure permissions](configuration/users-and-groups-structure/configure-permissions.md)
+* [Applications settings](configuration/applications-settings.md)
 
-## Data Studio
+## Data Studio guide
 
-* [😊 Portail](data-studio/portail.md)
-* [📪 Les vues](data-studio/les-vues.md)
-* [🛠 Les filtres](data-studio/les-filtres/README.md)
-  * [📝 Setting permissions](data-studio/les-filtres/setting-permissions.md)
-  * [🧑 Inviting Members](data-studio/les-filtres/inviting-members.md)
-* [📒 Le gestionnaire de fichiers](data-studio/le-gestionnaire-de-fichiers.md)
+* [Applications home page](data-studio-guide/applications-home-page.md)
+* [📪 Vues](data-studio-guide/vues/README.md)
+  * [🛠 Les filtres](data-studio-guide/vues/les-filtres/README.md)
+    * [📝 Setting permissions](data-studio-guide/vues/les-filtres/setting-permissions.md)
+    * [🧑 Inviting Members](data-studio-guide/vues/les-filtres/inviting-members.md)
+* [📒 Files managements](data-studio-guide/files-managements.md)

@@ -1,4 +1,4 @@
-# 🕶 Gestion du modèle de données
+# Data model
 
 {% hint style="info" %}
 

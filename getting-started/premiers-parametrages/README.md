@@ -1,4 +1,4 @@
-# 🔵 Premiers paramètrages
+# Premiers paramètrages
 
 
 
