@@ -10,6 +10,7 @@
 * [Introduction](getting-started/introduction.md)
 * [Install LEAV-Engine](getting-started/install-leav-engine.md)
 * [Data model concepts](getting-started/data-model-concepts.md)
+* [Files Management Settings](getting-started/files-management-settings.md)
 * [Premiers paramètrages](getting-started/premiers-parametrages/README.md)
   * [Setting permissions](getting-started/premiers-parametrages/setting-permissions.md)
   * [Inviting Members](getting-started/premiers-parametrages/inviting-members.md)
@@ -28,8 +29,8 @@
 ## Data Studio guide
 
 * [Applications home page](data-studio-guide/applications-home-page.md)
-* [📪 Vues](data-studio-guide/vues/README.md)
+* [Vues](data-studio-guide/vues/README.md)
   * [🛠 Les filtres](data-studio-guide/vues/les-filtres/README.md)
     * [📝 Setting permissions](data-studio-guide/vues/les-filtres/setting-permissions.md)
     * [🧑 Inviting Members](data-studio-guide/vues/les-filtres/inviting-members.md)
-* [📒 Files managements](data-studio-guide/files-managements.md)
+* [Files managements](data-studio-guide/files-managements.md)
