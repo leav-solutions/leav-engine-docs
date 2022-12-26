@@ -19,19 +19,35 @@ Depuis 1987 date à laquelle il termine ses études en communication, Didier Mom
 Didier Mombrun est le fondateur de LEAV-Solutions et concepteur de LEAV-Engine et Data Studio
 {% endhint %}
 
-En 1995, il est dirigant d'une société de prepress et réalise pour ces clients industriels et retailer de nombreux catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'interesse à la possibilité de centraliser et stocker les données des produits dans une base de données pour alimenter avec les même informations validées l'ensemble des ces support.
+En 1995, il est dirigant d'une société de prepress et réalise pour ses clients industriels et retailers des catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des catalogues produits dans une base de données pour alimenter avec les même informations l'ensemble des supports.
 
-Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Cette solution sera baptisé Knowbox. Alors que Didier ne connait pas de langage de programmation, il utilise divers outils pour créer l'architecture et les premières maquettes de sa solution. FileMaker mais également MySQL avec des outils graphique tels que PHPMyAdmin ont beaucoup contribuer à sa réflexion et très vite a concevoir des interfaces beaucoup plus conviviales.
+Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Cette solution sera baptisé Knowbox. Alors que Didier ne connait pas de langage de programmation pour développer une application full web, il utilise divers outils pour créer l'architecture et créer les premières maquettes de Knowbox. FileMaker mais également MySQL avec des outils graphique tels que PHPMyAdmin ont beaucoup contribuer à sa réflexion pour concevoir Knowbox.&#x20;
 
-La révélation fut directement lié d'une part au manque de réactivité et au coûts impliqués par les développements sous traités à des développeurs pour obtenir une application FullWeb. Knowbox était entièrement financé par ces propres économies. Didier est alors impatient de pouvoir tester les premières interfaces de knowbox. Ce n'est que quelque mois plus tard qu'il reçoit la première version et de tester la première bibliothèque (Table des produits), celle-ci permettait de lister, filtrer, afficher et d'éditer chaque enregistrement. La deuxième interface était celle des Images (Visuels produits) et Documents (Notices, PDF...) avec les même fonctions de recherches, filtres et éditions.
+Pour réaliser les développements de Knowbox, Didier fait appel à des développeurs indépendants et finance pendant plusieurs années avec ces propres économies ce projet ambitieux.
 
-Lors de la recette, Didier constate des dysfonctionnement et demande au développeur de modifier un comportement sur la recherche et les filtres de la bibliothèque des produits. Lorsque la correction est effectué, quelques semaines plus tard... il réceptionne et vérifie le bon fonctionnement, mais constate que le même problème n'est pas résolu sur la même fonction de la bibliothèque des Images. Il interroge le développeur et celui-ci lui indique que ce n'est pas le même code et qu'il faudra non seulement attendre que la nouvelle correction mais le coût supplémentaire associé.
+Les concepts fondamentaux de Knowbox sont la conséquence directe du temps perdu a attendre les résultats mais surtout la dépendance technique et économique avec les développements. En effet, dès la réception après quelques mois des premières interfaces, une remarque a tout changé. Les premières recettes commencent avec l'interface de la gestion des produits (Table des produits), celle-ci permet de lister, filtrer, afficher et d'éditer chaque enregistrement, ainsi que l'interface de gestion des Images (Visuels produits) et Documents (Notices, PDF...) avec les même fonctions. Certains dysfonctionnements sont indiqués sur la fonction de recherche de la bibliothèque des produits.&#x20;
 
-La nécessité d'être autonome mais aussi de maitriser les coûts de développements ont fait basculer Knowbox dans une dimension différente avec deux objectifs : coder une seule fois toutes les fonctions communes et nécessaires à toutes les bibliothèque de la solution et pouvoir créer le data modèle depuis une interface graphique conviviale.
+Quelques semaines plus tard... les correctifs sont bien opérationnels sur la bibliothèque des produits, mais dysfonctionnent sur la même fonction de la bibliothèque des Images. Le développeur indique que ce n'est pas le même code et qu'il faudra non seulement attendre les correctifs pour cette partie mais assumer le coût supplémentaire associé.
 
-Pour cela il fallait concevoir une deuxième version de Knowbox avec un moteur adapté à ces contraintes; pouvoir créer dynamiquement des attributs, Bibliothèques et faire en sorte que celles-ci soient dynamiquement et automatiquement pris en compte par un code commun. La question posée au développeur a été ainsi formulé : Est il possible que dans une requête SQL, le nom des tables et des champs soient des variables ? La réponse a été OUI !
+A cet instant, Didier réalise l'importance d'être autonome mais aussi de ne plus dépendre des développements pour modifier et faire évoluer le data-modèle de Knowbox avec plusieurs objectifs :&#x20;
 
-Knowbox Engine est né. C'est actuellement le socle technique de la solution OmniPublish by ARiSTiD
+* Un seul code à maintenir pour toutes les fonctions communes et nécessaires à toutes les bibliothèques
+* Possibilité de créer dynamiquement des bibliothèques, des attributs et qu'ils soient immédiatement reconnu et utilisable dans la solution.
+
+Didier se souvient encore de la question qu'il croyait stupide, posée au développeur : \
+Est il possible d'intégrer des variables dans une requête SQL, y compris le nom des tables et des champs ?
+
+Didier se souvient encore du regard illuminé de ce developpeur qui a répondu OUI !
+
+Après quelques semaines et la création des quelques tables systèmes permettant de référencer l'ensemble du modèles que les concepts de Knowbox Engine ont été défini. C'est actuellement le socle technique de la solution OmniPublish by ARiSTiD.
+
+LEAV-Engine est l'évolution sur des technologies moderne et avec une expérience de 15 ans
+
+{% hint style="success" %}
+LEAV est l'acronyme de Library, Entity, Attribut, Value
+
+En effet, une partie du modèle est basé sur le concept EAV (C'est lors de l'interfacage avec la plateforme ecommerce MAGENTO, que nous avons découvert 5 ans après qu'une partie du modèle était en fait un standard, remis à la mode par Magento ;-) Nous y avons ajouter la dimension relationnel avec les Liaisons entre bibliothèques.
+{% endhint %}
 
 
 
