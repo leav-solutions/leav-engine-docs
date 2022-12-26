@@ -13,13 +13,13 @@ description: >-
 
 Les principaux concepts de LEAV Engine ont été initié en 2001
 
-Depuis 1987 date à laquelle il termine ses études en communication, Didier Mombrun a créer plusieurs entreprises, toujours dans la communication mais toujours en lien avec les technologies.
+Depuis plus de 30 ans, Didier Mombrun a créer plusieurs entreprises, toujours dans la communication mais toujours en lien avec les technologies.
 
 {% hint style="warning" %}
 Didier Mombrun est le fondateur de LEAV-Solutions et concepteur de LEAV-Engine et Data Studio
 {% endhint %}
 
-En 1995, il est dirigant d'une société de prepress et réalise pour ses clients industriels et retailers des catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des catalogues produits dans une base de données pour alimenter avec les même informations l'ensemble des supports.
+Dans les années 90, Didier est dirigant d'une société de prepress et réalise pour ses clients industriels et retailers des catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des catalogues produits dans une base de données pour alimenter avec les même informations l'ensemble des supports.
 
 Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Cette solution sera baptisé Knowbox. Alors que Didier ne connait pas de langage de programmation pour développer une application full web, il utilise divers outils pour créer l'architecture et créer les premières maquettes de Knowbox. FileMaker mais également MySQL avec des outils graphique tels que PHPMyAdmin ont beaucoup contribuer à sa réflexion pour concevoir Knowbox.&#x20;
 
