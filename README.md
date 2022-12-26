@@ -31,7 +31,7 @@ La nécessité d'être autonome mais aussi de maitriser les coûts de développe
 
 Pour cela il fallait concevoir une deuxième version de Knowbox avec un moteur adapté à ces contraintes; pouvoir créer dynamiquement des attributs, Bibliothèques et faire en sorte que celles-ci soient dynamiquement et automatiquement pris en compte par un code commun. La question posée au développeur a été ainsi formulé : Est il possible que dans une requête SQL, le nom des tables et des champs soient des variables ? La réponse a été OUI !
 
-Knowbox Engine est né est actuellement le socle technique de la solution OmniPublish
+Knowbox Engine est né. C'est actuellement le socle technique de la solution OmniPublish by ARiSTiD
 
 
 
