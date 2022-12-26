@@ -27,9 +27,11 @@ La révélation fut directement lié d'une part au manque de réactivité et au 
 
 Lors de la recette, Didier constate des dysfonctionnement et demande au développeur de modifier un comportement sur la recherche et les filtres de la bibliothèque des produits. Lorsque la correction est effectué, il vérifie le bon fonctionnement, mais constate que le même problème n'est pas résolu sur la même fonction mais sur la bibliothèque des Images. En interrogant le développeur, celui-ci lui indique que ce n'est pas le même code et qu'il faudra non seulement attendre que la correction soit effectuée mais de payer le temps de travail associé.
 
-C'est a ce moment là que la nécessité de maitriser les coûts a été l'étape qui a fait basculer Knowbox dans une dimension différente et de ne coder qu'une seule fois toutes les fonctions communes et nécessaires à toutes les bibliothèque de la solution.
+C'est a ce moment là que la nécessité de maitriser les coûts a été la motivation principale qui a fait basculer Knowbox dans une dimension différente et de ne coder qu'une seule fois toutes les fonctions communes et nécessaires à toutes les bibliothèque de la solution.
 
-Le premier problème était qu'a chaque besoin d'une nouvelle caractéristique et bien que le champs pouvait être créer directement en base, le développeur devait le connaitre dans son code et donc le déclarer.
+Pour cela il fallait concevoir une deuxième version de Knowbox avec un moteur adapté à ces contraintes; pouvoir créer dynamiquement des attributs, Bibliothèques et faire en sorte que celles-ci soient dynamiquement et automatiquement pris en compte par un code commun. La question posée au développeur a été ainsi formulé : Est il possible que dans une requête SQL, le nom des tables et des champs soient des variables ? La réponse a été OUI !
+
+Knowbox Engine est né est actuellement le socle technique de la solution OmniPublish
 
 
 
