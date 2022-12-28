@@ -15,33 +15,41 @@ Les principaux concepts de LEAV Engine ont été initié en 2001
 
 Depuis plus de 30 ans, Didier Mombrun a créé plusieurs entreprises dans la communication mais toujours en lien avec les technologies.
 
-{% hint style="warning" %}
-Didier Mombrun est co-fondateur de LEAV-Solutions et co-concepteur de LEAV-Engine et Data Studio
+{% hint style="info" %}
+Didier Mombrun travail depuis plusieurs années avec Jérome et Teddy (développeurs de talent) qui sont maintenant ses associés et co-concepteur de LEAV-Engine.
 {% endhint %}
 
 Dans les années 90, Didier est dirigant d'une société de communication et de prepress qui réalise pour ses clients industriels et retailers des catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des produits dans une base de données pour alimenter avec les même informations l'ensemble des supports.
 
-Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Didier ne connait pas de langage de programmation pour développer lui même une application full web, il utilise divers outils pour créer l'architecture et créer les premières maquettes de la solution avec FileMaker mais également MySQL / PHPMyAdmin.&#x20;
+Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Didier ne connait pas de langage de programmation pour développer lui même une application full web, il utilise divers outils pour créer l'architecture et les premières maquettes du PIM avec Claris TM FileMaker mais également MySQL / PHPMyAdmin.&#x20;
 
 Pour réaliser les développements, il fait appel à des développeurs indépendants et finance pendant plusieurs années avec ces propres économies ce projet ambitieux.
 
-Les premières livraisons des développements concernent les interfaces de gestion des produits et de gestion des images (Asset). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements. C'est une demande de modification sur l'interface de gestion produit qui n'est pas effective sur l'interface des images qui sera révélatrice...
+Les premières versions livrées concernent les interfaces de gestion des produits et de gestion des images (Asset). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements pourtant le code bien que identique est dupliqué pour chaque interface car les requêtes n'interrogent pas les même tables.
 
-En effet, le développeur indique que bien que les fonctions sont communes et le code similaire, c'est une copie du code pour chaque interface car les requêtes bien que identiques n'interrogent pas les même tables. Le développeur ajoute qu'il faudra non seulement un délais mais aussi un coût supplémentaire.
+Trop dépendant des délais et coûts de développements mais aussi frustré de ne pas être autonome pour créer le data-modèle, les tables, les champs, les relations via une interface web conviviale, Didier décide de revoir la conception et se consacrer plus sur le socle technique que sur les interfaces et fonctions métiers. Il a la conviction qu'il est possible de concevoir un code, des requêtes et des interfaces pour afficher n'importe quelles tables, ses entités, ses valeurs et relations.
 
-Dépendant des délais et coûts de développements mais aussi la frustation de ne pas être autonome pour créer sans code le data-modèle (Tables et champs) et les relations ont été la motivation principale pour concevoir un modèle de données permettant avec un code et des requêtes communes de visualiser au travers d'une même interface n'importe qu'elle table de la base de données.
+Après quelques semaines de travail, quelques prototypes, un ensemble de tables systèmes on été définis pour référencer le datamodel et ces variables, le modèle très simple de la solution est défini. Ont été ajouter la possibilité de créer dynamiquement des bibliothèques (Tables), des attributs (Champs) et relations via des interfaces graphiques par clic bouton et drag& drop.
 
-* Un seul code à maintenir pour toutes les fonctions communes et nécessaires à toutes les bibliothèques (Tables), Attributs (Champs) et relations
-* Possibilité de créer dynamiquement des bibliothèques, des attributs et qu'ils soient immédiatement reconnu et utilisable dans la solution.
+Il n'y avait donc qu'un seul code à maintenir pour toutes les fonctions communes et nécessaires à tout le data modèles quelque soit le nombre de tables, de champs et de relations.
 
-C'est ainsi que la solution PIM est née elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](http://www.aristid.com) depuis plus de dix ans.
+Ont été également intégrés :
 
-LEAV-Engine est puissante et moderne data plateforme 100% OPEN SOURCE et une forte expérience avec pour objectif de servir un plus large domaine d'applications
+* Un module de gestion des fichiers (asset mangement)
+* Recherche, filtres...
+* Import, Export
+* Rôles et permissions
+* CRUD (Create, Read, Update, Delete)
+* Et bien d'autres...
 
-{% hint style="success" %}
+C'est ainsi que la solution PIM est née, elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](https://www.aristid.com/cacom-produits-omnipublish/) plateforme leader de communication omnicanale pour piloter la promotion, la production et la diffusion des offres commerciales de la grande distribution Française.
+
+Après 15 ans et cette fabuleuse expérience nous avons décider de lancer LEAV-Engine, une puissante et moderne data plateforme 100% OPEN SOURCE avec pour objectif de servir un plus large domaine d'applications et démocratiser la gestion des données
+
+{% hint style="info" %}
 LEAV est l'acronyme de Library, Entity, Attribut, Value
 
-En effet, l'une des fonctions les plus avancé du modèle LEAV-Engine est la possibilité de gérer des attributs spécifiques une infinité de versions de valeurs
+En effet, l'une des spécificité du modèle LEAV-Engine est de proposer un type d'attribut avancé permettant une infinité de versions de valeurs ou de relation s’appuyant sur le modèle EAV auquel nous avons ajouté la dimension relationnelle "**L**ibrary".
 {% endhint %}
 
 
