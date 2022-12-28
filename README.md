@@ -13,21 +13,28 @@ description: >-
 
 Les principaux concepts de LEAV Engine ont été initié en 2001
 
-Depuis plus de 30 ans, Didier Mombrun a créer plusieurs entreprises, toujours dans la communication mais toujours en lien avec les technologies.
+Depuis plus de 30 ans, Didier Mombrun a créé plusieurs entreprises dans la communication mais toujours en lien avec les technologies.
 
 {% hint style="warning" %}
-Didier Mombrun est le fondateur de LEAV-Solutions et concepteur de LEAV-Engine et Data Studio
+Didier Mombrun est co-fondateur de LEAV-Solutions et co-concepteur de LEAV-Engine et Data Studio
 {% endhint %}
 
-Dans les années 90, Didier est dirigant d'une société de prepress et réalise pour ses clients industriels et retailers des catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des catalogues produits dans une base de données pour alimenter avec les même informations l'ensemble des supports.
+Dans les années 90, Didier est dirigant d'une société de communication et de prepress qui réalise pour ses clients industriels et retailers des catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des produits dans une base de données pour alimenter avec les même informations l'ensemble des supports.
 
-Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Cette solution sera baptisé **Knowbox**. Alors que Didier ne connait pas de langage de programmation pour développer lui même une application full web, il utilise divers outils pour créer l'architecture et créer les premières maquettes de Knowbox. FileMaker mais également MySQL avec PHPMyAdmin ont beaucoup contribuer à sa réflexion pour concevoir le modèle Knowbox.&#x20;
+Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Didier ne connait pas de langage de programmation pour développer lui même une application full web, il utilise divers outils pour créer l'architecture et créer les premières maquettes de la solution avec FileMaker mais également MySQL / PHPMyAdmin.&#x20;
 
-Pour réaliser les développements de Knowbox, Didier fait appel à des développeurs indépendants et finance pendant plusieurs années avec ces propres économies ce projet ambitieux.
+Pour réaliser les développements, il fait appel à des développeurs indépendants et finance pendant plusieurs années avec ces propres économies ce projet ambitieux.
 
-Les concepts fondamentaux de Knowbox sont la conséquence directe des délais et de la dépendance technique, économique avec les développements. En effet, dès la réception des premières interfaces et des correctifs a réaliser, une remarque a tout changé. Après avoir fait la recette de l'interface de la gestion des produits (Table des produits), celle-ci permet de lister, filtrer, afficher et d'éditer chaque enregistrement, ainsi que l'interface de gestion des Images (Visuels produits) et Documents (Notices, PDF...) avec les même fonctions, des dysfonctionnements sont indiqués sur la fonction de recherche de la bibliothèque des produits.&#x20;
+Les premières livraisons concernent les interfaces de gestion des produits et de gestion des images (Asset). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements. Pourtant c'est une demande une modification sur l'interface de gestion produit qui n'est pas effective sur l'interface des images qui est à l'origine des concepts...
 
-Quelques semaines plus tard... les correctifs sont opérationnels sur la bibliothèque des produits, mais pas sur la même fonction de la bibliothèque des Images. Le développeur indique que ce n'est **pas le même code** et qu'il faudra non seulement attendre les correctifs pour cette partie mais assumer le coût supplémentaire associé.
+En effet, le développeur indique que bien que les fonctions sont communes et identiques c'est une copie du même code car les requêtes bien que identiques n'interrogent pas les même tables et qu'il a oublier de reporter la correction sur la requête des images et ajoute qu'il faudra non seulement un délais mais aussi un coût supplémentaire.
+
+Dépendant des délais et coûts des développements mais aussi la frustation de ne pas être autonome pour créer dynamiquement, Didier prend le temps pour concevoir un modèle de données qui permettrait avec des interfaces, un code et des requêtes communs de visualiser et travailler sur n'importe qu'elle table de la base de données.\
+
+
+C'est en grande partie la frustration de ne pas être autonome pour créer, modifier les data-modèle et les interfaces qui ont été à l'origine des concepts du socle technique de Knowbox. Le déclic est arriver très vite dès la livraison des premières interfaces et grâce à la réflexion d'un développeur...
+
+guider et motiver Didier a concevoir une couche d'abstraction logiciel par dessus la base de données&#x20;
 
 A cet instant, Didier réalise l'importance d'être autonome mais aussi de ne plus dépendre des développements pour modifier et faire évoluer le data-modèle de Knowbox avec plusieurs objectifs :&#x20;
 
