@@ -29,19 +29,24 @@ Les premières livraisons des développements concernent les interfaces de gesti
 
 En effet, le développeur indique que bien que les fonctions sont communes et le code similaire, c'est une copie du code pour chaque interface car les requêtes bien que identiques n'interrogent pas les même tables. Le développeur ajoute qu'il faudra non seulement un délais mais aussi un coût supplémentaire.
 
-Dépendant des délais et coûts de développements mais aussi la frustation de ne pas être autonome pour créer sans code le data-modèle (Tables et champs) et les relations ont été la motivation principale pour concevoir un modèle de données permettant avec un code et des requêtes communes de visualiser au travers d'une même interface n'importe qu'elle table de la base de données.
+Dépendant des délais et coûts de développements mais aussi la frustration de ne pas être autonome pour créer sans code le data-modèle (Tables et champs) et les relations ont été la motivation principale pour concevoir un modèle de données permettant avec un code et des requêtes communes de visualiser au travers d'une même interface n'importe qu'elle table de la base de données.
 
-* Un seul code à maintenir pour toutes les fonctions communes et nécessaires à toutes les bibliothèques (Tables), Attributs (Champs) et relations
-* Possibilité de créer dynamiquement des bibliothèques, des attributs et qu'ils soient immédiatement reconnu et utilisable dans la solution.
+* Possibilité de créer dynamiquement des bibliothèques (Tables), des attributs (Champs) et qu'ils soient immédiatement reconnu et utilisable dans la solution.
+* Un seul code à maintenir pour toutes les fonctions communes et nécessaires à toutes les bibliothèques (Tables)
+  * Chercher, filtrer...
+  * Importer, Exporter
+  * Rôles et permissions
+  * CRUD (Create, Read, Update, Delete)
+  * Et bien d'autres...
 
-C'est ainsi que la solution PIM est née elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](http://www.aristid.com) depuis plus de dix ans.
+C'est ainsi que la solution PIM est née, elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](https://www.aristid.com/cacom-produits-omnipublish/) plateforme leader de communication omnicanale pour piloter la promotion, la production et la diffusion des offres commerciales de la grande distribution Française.
 
-LEAV-Engine est puissante et moderne data plateforme 100% OPEN SOURCE et une forte expérience avec pour objectif de servir un plus large domaine d'applications
+Cette expérience positive nous a motivé la création de LEAV-Engine, une puissante et moderne data plateforme 100% OPEN SOURCE avec pour objectif de servir un plus large domaine d'applications.
 
 {% hint style="success" %}
 LEAV est l'acronyme de Library, Entity, Attribut, Value
 
-En effet, l'une des fonctions les plus avancé du modèle LEAV-Engine est la possibilité de gérer des attributs spécifiques une infinité de versions de valeurs
+En effet, l'une des spécificité du modèle LEAV-Engine est de proposer des d'attribut avancé permettant une infinité de versions de valeurs ou de relation s’appuyant sur le modèle EAV auquel nous avons ajouté la dimension relationnelle entre "Library".
 {% endhint %}
 
 
