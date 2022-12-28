@@ -21,28 +21,26 @@ Didier Mombrun travail depuis plusieurs années avec Jérome et Teddy (développ
 
 Dans les années 90, Didier est dirigant d'une société de communication et de prepress qui réalise pour ses clients industriels et retailers des catalogues papier ainsi que leurs versions CDROM (Encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des produits dans une base de données pour alimenter avec les même informations l'ensemble des supports.
 
-Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Didier ne connait pas de langage de programmation pour développer lui même une application full web, il utilise divers outils pour créer l'architecture et les premières maquettes du PIM avec Claris TM FileMaker mais également MySQL / PHPMyAdmin.&#x20;
+En 2001, suite à la vente de son entreprise, il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Didier ne connait pas de langage de programmation pour développer lui même une application full web, il utilise divers outils pour créer l'architecture et les premières maquettes du PIM avec Claris FileMaker mais également MySQL / PHPMyAdmin et bien entendu Excel.&#x20;
 
 Pour réaliser les développements, il fait appel à des développeurs indépendants et finance pendant plusieurs années avec ces propres économies ce projet ambitieux.
 
-Les premières versions livrées concernent les interfaces de gestion des produits et de gestion des images (Asset). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements pourtant le code bien que identique est dupliqué pour chaque interface car les requêtes n'interrogent pas les même tables.
+Les premières versions livrées concernent les interfaces de gestion des produits et de gestion des images (Asset). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements pourtant le code bien que identique est dupliqué pour chaque interface car les requêtes n'interrogent pas les même tables. Cette solution n'est pas satisfaisante et arrêté.
 
-Trop dépendant des délais et coûts de développements mais aussi frustré de ne pas être autonome pour créer le data-modèle, les tables, les champs, les relations via une interface web conviviale, Didier décide de revoir la conception et se consacrer plus sur le socle technique que sur les interfaces et fonctions métiers. Il a la conviction qu'il est possible de concevoir un code, des requêtes et des interfaces pour afficher n'importe quelles tables, ses entités, ses valeurs et relations.
+Trop dépendant des délais et coûts de développements mais aussi frustré de ne pas être autonome pour créer le data-modèle, les tables, les champs, les relations via une interface web conviviale, Didier décide de revoir la conception en se consacrant plus sur le socle technique que sur les interfaces et fonctions métiers. Il a la conviction qu'il est possible de concevoir et unifier un code, des requêtes et des interfaces pour afficher n'importe quelles tables, ses entités, ses valeurs et ses relations.
 
-Après quelques semaines de travail, quelques prototypes, un ensemble de tables systèmes on été définis pour référencer le datamodel et ces variables, le modèle très simple de la solution est défini. Ont été ajouter la possibilité de créer dynamiquement des bibliothèques (Tables), des attributs (Champs) et relations via des interfaces graphiques par clic bouton et drag& drop.
+Après quelques semaines de travail et prototypes, le modèle très simple de la solution est défini et le code est les interfaces développées en quelques mois. Associé à une interface d'administration pour créer graphiquement par clic bouton et drag& drop des bibliothèques (Tables), des attributs (Champs), des relations, paramétrer l'affichage et les permissions., la solution était enfin disponible.
 
 Il n'y avait donc qu'un seul code à maintenir pour toutes les fonctions communes et nécessaires à tout le data modèles quelque soit le nombre de tables, de champs et de relations.
 
-Ont été également intégrés :
-
-* Un module de gestion des fichiers (asset mangement)
+* CRUD (Create, Read, Update, Delete)
 * Recherche, filtres...
 * Import, Export
 * Rôles et permissions
-* CRUD (Create, Read, Update, Delete)
+* Une API Rest
 * Et bien d'autres...
 
-C'est ainsi que la solution PIM est née, elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](https://www.aristid.com/cacom-produits-omnipublish/) plateforme leader de communication omnicanale pour piloter la promotion, la production et la diffusion des offres commerciales de la grande distribution Française.
+C'est ainsi que la solution PIM est née, elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](https://www.aristid.com/cacom-produits-omnipublish/) plateforme leader de communication omnicanale pour piloter la promotion, la production et la diffusion des offres commerciales des principales enseignes de la grande distribution Française.
 
 Après 15 ans et cette fabuleuse expérience nous avons décider de lancer LEAV-Engine, une puissante et moderne data plateforme 100% OPEN SOURCE avec pour objectif de servir un plus large domaine d'applications et démocratiser la gestion des données
 
