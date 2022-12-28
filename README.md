@@ -25,35 +25,23 @@ Ce n'est qu'en 2001, suite à la vente de son entreprise, qu'il décide d'invest
 
 Pour réaliser les développements, il fait appel à des développeurs indépendants et finance pendant plusieurs années avec ces propres économies ce projet ambitieux.
 
-Les premières livraisons concernent les interfaces de gestion des produits et de gestion des images (Asset). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements. Pourtant c'est une demande une modification sur l'interface de gestion produit qui n'est pas effective sur l'interface des images qui est à l'origine des concepts...
+Les premières livraisons des développements concernent les interfaces de gestion des produits et de gestion des images (Asset). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements. C'est une demande de modification sur l'interface de gestion produit qui n'est pas effective sur l'interface des images qui sera révélatrice...
 
-En effet, le développeur indique que bien que les fonctions sont communes et identiques c'est une copie du même code car les requêtes bien que identiques n'interrogent pas les même tables et qu'il a oublier de reporter la correction sur la requête des images et ajoute qu'il faudra non seulement un délais mais aussi un coût supplémentaire.
+En effet, le développeur indique que bien que les fonctions sont communes et le code similaire, c'est une copie du code pour chaque interface car les requêtes bien que identiques n'interrogent pas les même tables. Le développeur ajoute qu'il faudra non seulement un délais mais aussi un coût supplémentaire.
 
-Dépendant des délais et coûts des développements mais aussi la frustation de ne pas être autonome pour créer dynamiquement, Didier prend le temps pour concevoir un modèle de données qui permettrait avec des interfaces, un code et des requêtes communs de visualiser et travailler sur n'importe qu'elle table de la base de données.\
+Dépendant des délais et coûts de développements mais aussi la frustation de ne pas être autonome pour créer sans code le data-modèle (Tables et champs) et les relations ont été la motivation principale pour concevoir un modèle de données permettant avec un code et des requêtes communes de visualiser au travers d'une même interface n'importe qu'elle table de la base de données.
 
-
-C'est en grande partie la frustration de ne pas être autonome pour créer, modifier les data-modèle et les interfaces qui ont été à l'origine des concepts du socle technique de Knowbox. Le déclic est arriver très vite dès la livraison des premières interfaces et grâce à la réflexion d'un développeur...
-
-guider et motiver Didier a concevoir une couche d'abstraction logiciel par dessus la base de données&#x20;
-
-A cet instant, Didier réalise l'importance d'être autonome mais aussi de ne plus dépendre des développements pour modifier et faire évoluer le data-modèle de Knowbox avec plusieurs objectifs :&#x20;
-
-* Un seul code à maintenir pour toutes les fonctions communes et nécessaires à toutes les bibliothèques (Tables)
+* Un seul code à maintenir pour toutes les fonctions communes et nécessaires à toutes les bibliothèques (Tables), Attributs (Champs) et relations
 * Possibilité de créer dynamiquement des bibliothèques, des attributs et qu'ils soient immédiatement reconnu et utilisable dans la solution.
 
-Pour cela, Didier a déjà les solutions et se souvient encore de la question qu'il croyait stupide, posée au développeur : \
-Est il possible d'intégrer des variables dans une requête SQL, y compris le nom des tables et des champs ?
+C'est ainsi que la solution PIM est née elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](http://www.aristid.com) depuis plus de dix ans.
 
-Didier se souvient encore du regard illuminé de ce développeur qui a répondu : "Oui bien sur !"
-
-Après quelques semaines et la création des quelques tables systèmes permettant de référencer l'ensemble du modèles, les concepts de Knowbox Engine ont été défini. C'est actuellement le socle technique de la solution OmniPublish by ARiSTiD.
-
-LEAV-Engine est l'évolution sur des technologies moderne et avec une expérience de 15 ans
+LEAV-Engine est puissante et moderne data plateforme 100% OPEN SOURCE et une forte expérience avec pour objectif de servir un plus large domaine d'applications
 
 {% hint style="success" %}
 LEAV est l'acronyme de Library, Entity, Attribut, Value
 
-En effet, une partie du modèle est basé sur le concept EAV (C'est lors de l'interfacage avec la plateforme ecommerce MAGENTO, que nous avons découvert 5 ans après qu'une partie du modèle était en fait un standard, remis à la mode par Magento ;-) Nous y avons ajouter la dimension relationnel avec les Liaisons entre bibliothèques.
+En effet, l'une des fonctions les plus avancé du modèle LEAV-Engine est la possibilité de gérer des attributs spécifiques une infinité de versions de valeurs
 {% endhint %}
 
 
