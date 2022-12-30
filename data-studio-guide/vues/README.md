@@ -1,4 +1,4 @@
-# 📪 Les vues
+# Vues
 
 ## Step 1 - Start journalling
 

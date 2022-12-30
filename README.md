@@ -58,8 +58,8 @@ En effet, l'une des spécificité du modèle LEAV-Engine est de proposer un type
 [introduction.md](getting-started/introduction.md)
 {% endcontent-ref %}
 
-{% content-ref url="getting-started/data-model-concepts.md" %}
-[data-model-concepts.md](getting-started/data-model-concepts.md)
+{% content-ref url="getting-started/data-model-and-concepts.md" %}
+[data-model-and-concepts.md](getting-started/data-model-and-concepts.md)
 {% endcontent-ref %}
 
 ## Get Started

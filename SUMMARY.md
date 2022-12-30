@@ -9,7 +9,7 @@
 
 * [Introduction](getting-started/introduction.md)
 * [Install LEAV-Engine](getting-started/install-leav-engine.md)
-* [Data model concepts](getting-started/data-model-concepts.md)
+* [Data model & Concepts](getting-started/data-model-and-concepts.md)
 * [Files Management Settings](getting-started/files-management-settings.md)
 * [Premiers paramètrages](getting-started/premiers-parametrages/README.md)
   * [Setting permissions](getting-started/premiers-parametrages/setting-permissions.md)
