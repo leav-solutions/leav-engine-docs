@@ -10,7 +10,7 @@ description: Bienvenu dans la documentation de LEAV-Engine
 LEAV is the acronyme of Lybrary Entity Attribut Value concept
 {% endhint %}
 
-#### LEAV Engine est une solution opensource de gestion de données permettant de simplifier la création d'applications de base de données
+#### LEAV Engine est une solution opensource qui s'installe par dessus ARANGO-DB dans le but de simplifier la création et la diffusion d'applications de base de données
 
 Notre plateforme permet indifférement a des ingénieurs et des non techniciens de créer des applications de base de données. Après avoir installé LEAV-ENgine sur votre server, l'interface No Code Data-Studio, vous accompagnes pour créer votre modèle de données, créer les utilisateurs définir les rôles et permissions, configurer les Bibliothèques, attributs et relations, importer facilement vos données, définir des workflows et travailler avec vos équipes immédiatement sur les données et leurs modifications.
 
