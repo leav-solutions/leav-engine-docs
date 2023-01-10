@@ -1,5 +1,5 @@
 ---
-description: Bienvenu dans la documentation de LEAV-Engine
+description: Bienvenue dans la documentation de LEAV-Engine
 ---
 
 # Introduction
@@ -7,16 +7,26 @@ description: Bienvenu dans la documentation de LEAV-Engine
 ## What is LEAV Engine
 
 {% hint style="info" %}
-LEAV is the acronyme of Lybrary Entity Attribut Value concept
+LEAV is the acronyme of Library Entity Attribute Value concept
 {% endhint %}
 
 #### LEAV Engine est une solution opensource qui s'installe par dessus ARANGO-DB dans le but de simplifier la création et la diffusion d'applications de base de données
 
-Notre plateforme permet indifférement a des ingénieurs et des non techniciens de créer des applications de base de données. Après avoir installé LEAV-ENgine sur votre server, l'interface No Code Data-Studio, vous accompagnes pour créer votre modèle de données, créer les utilisateurs définir les rôles et permissions, configurer les Bibliothèques, attributs et relations, importer facilement vos données, définir des workflows et travailler avec vos équipes immédiatement sur les données et leurs modifications.
+Notre plateforme permet indifférement à des ingénieurs et des non-techniciens de créer des applications de base de données.&#x20;
 
-LEAV Engine est livré avec un ensemble de fonctions standard et essentiels à toutes applications de gestion de données, tel qu'une interface CRUD Pour Créer, Voir, Modifier et supprimer les enregistrement et leurs valeurs, créer des formulaires d'édition différents en fonctions des caractéristiques de chaque enregistrements, et bien plus encore...
+Après avoir installé LEAV-Engine sur votre serveur, l'interface No Code Data-Studio vous accompagne pour :&#x20;
 
-#### LEAV Engine est une couche d'abstraction par dessus la base de données Arango DB
+* créer votre modèle de données,&#x20;
+* créer les utilisateurs,&#x20;
+* définir les rôles et permissions,&#x20;
+* configurer les Bibliothèques, attributs et relations,&#x20;
+* importer facilement vos données,&#x20;
+* définir des workflows&#x20;
+* et travailler avec vos équipes immédiatement sur les données et leurs modifications.
+
+LEAV Engine est livré avec un ensemble de fonctions standards et essentielles à toute application de gestion de données, telles que une interface CRUD Pour créer, voir, modifier et supprimer les enregistrement et leurs valeurs, créer des formulaires d'édition différents en fonctions des caractéristiques de chaque enregistrements, et bien plus encore...
+
+#### LEAV Engine est une couche d'abstraction par dessus la base de données Arango DB.
 
 
 
