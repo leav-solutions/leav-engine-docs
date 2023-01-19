@@ -32,7 +32,7 @@
 * [Applications home page](data-studio-guide/applications-home-page.md)
 * [Vues](data-studio-guide/vues/README.md)
   * [What ?](data-studio-guide/vues/what/README.md)
-    * [Standard filters](data-studio-guide/vues/what/standard-filters.md)
+    * [Standard filters](data-studio-guide/vues/les-filtres/README.md)
     * [Advanced filters](data-studio-guide/vues/what/advanced-filters.md)
     * [Smart Filters](data-studio-guide/vues/what/smart-filters.md)
   * [How ?](data-studio-guide/vues/how/README.md)
