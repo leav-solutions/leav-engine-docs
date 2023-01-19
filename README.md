@@ -1,57 +1,32 @@
 ---
 description: >-
-  Cette documentation a pour objectifs de vous aider à comprendre LEAV-Engine,
-  avantages et bénéfices, et de repenser la conception de base de données.
+  Cette documentation a pour objectifs de vous aider à comprendre comment mettre
+  en œuvre LEAV-Engine avec ces avantages, bénéfices et repenser la conception
+  d'applications de base de données.
 ---
 
 # Welcome to LEAV-Engine
 
+LEAV Engine a été imaginé pour permettre à des spécialistes sans connaissance de langage de programmation d'être autonome pour développer des applications de gestion de données modernes et évolués. En résumé, de passer directement du besoin à la réalisation.
 
+Pour cela nous avons dissocié le code du modèle et des données. Ce sont les données métiers qui portent toute l'intelligence et non pas le code qui n'est utile qu'à la manipulation des données pour créer, modifier, exporter et bien d'autres fonctions courantes et nécessaires à toutes les applications qui s'appuient sur des données.
 
-## The little story of LEAV Engine
+Nous expliquons dans cette documentation, comment les interfaces LEAV Data Studio et l'API LEAV Engine, supervise le modèle et les données dans la base ArangoDB afin de préserver ses performances, sa cohérence afin d'en tirer toute la puissance et évolutivité.
 
-Les principaux concepts de LEAV Engine ont été initiés en 2001.
+Nous expliquons comment LEAV Engine est aller plus loin que la plupart des applications NoCode disponibles sur les bases de données et pour gérer des tables, des champs des relations.&#x20;
 
-Depuis plus de 30 ans, Didier Mombrun a créé plusieurs entreprises dans la communication mais toujours en lien avec les technologies.
+LEAV Engine propose plusieurs manière de stocker des valeurs et des liens, tels que les modèles  dit "Verticaux", "horizontaux" et "hierarchiques". Ce jargon métier vous sera expliqué et vous comprendrez sans études professionnelles en architecture de base de données que ces termes correspondent à des méthodes que vous utilisez intuitivement sans savoir qu'elle ont un nom et qu'elles sont documentés.\
 
-{% hint style="info" %}
-Didier Mombrun travaille depuis plusieurs années avec Jérome et Teddy (développeurs de talent) qui sont maintenant ses associés et co-concepteurs de LEAV-Engine.
-{% endhint %}
-
-Dans les années 90, Didier est dirigant d'une société de communication et de prépress qui réalise des catalogues papier **** pour ses clients industriels et retailers, ainsi que leurs versions CDROM (encore très populaire à l'époque) et les premiers sites web. C'est dans ce cadre qu'il s'intéresse à la possibilité de centraliser les données des produits dans une base de données pour alimenter, avec les même informations, l'ensemble des supports.
-
-En 2001, suite à la vente de son entreprise, il décide d'investir dans le développement d'une solution de gestion des informations produits (PIM). Didier ne connait pas de langage de programmation pour développer lui-même une application full web, il utilise divers outils pour créer l'architecture et les premières maquettes du PIM avec Claris FileMaker mais également MySQL / PHPMyAdmin et bien entendu Excel.&#x20;
-
-Pour réaliser les développements, il fait appel à des développeurs indépendants et finance pendant plusieurs années avec ses propres économies ce projet ambitieux.
-
-Les premières versions livrées concernent les interfaces de gestion des produits et de gestion des images (assets). Ces deux interfaces ont des fonctions communes pour lister, filtrer et éditer les enregistrements. Bien que identique, le code est dupliqué pour chaque interface car les requêtes n'interrogent pas les même tables.&#x20;
-
-Cette solution n'est pas satisfaisante car coûteuse en développement et maintenance. D'autres interfaces sont nécessaires, tel que les projets, les pages, les articles, les fournisseurs etc... mais toutes ont un point commun :  créer, modifier, supprimer mais aussi rechercher, filtrer, exporter, importer et gérer des permissions.
-
-Trop dépendant des délais et coûts de développements mais aussi frustré de ne pas être autonome pour créer le data-modèle, les tables, les champs, les relations via une interface web conviviale, Didier décide de revoir la conception en se consacrant plus sur le socle technique que sur les interfaces et fonctions métiers. Il a la conviction qu'il est possible de concevoir et unifier un code, des requêtes et des interfaces pour afficher n'importe quelle table, ses entités, ses valeurs et ses relations.
-
-Après quelques semaines de travail et prototypes, le modèle très simple de la solution est défini. Viennent ensuite le code et les interfaces, développés en quelques mois. Une interface d'administration permet de créer par drag\&drop des bibliothèques (tTables), des attributs (Champs), des relations et de paramétrer l'affichage et les permissions. La solution était enfin disponible.
-
-Le concept est donc de gérer avec un seul code commun pour les fonctions et les interfaces, l'ensemble du data modèles indifféremment des tables, des champs et des relations.
-
-* CRUD (Create, Read, Update, Delete)
-* Recherche, filtres...
-* Import, Export
-* Rôles et permissions
-* Une API Rest
-* Et bien d'autres...
-
-C'est ainsi que la solution PIM est née. Elle est actuellement le socle technique de la solution [OmniPublish by ARiSTiD](https://www.aristid.com/cacom-produits-omnipublish/), plateforme leader de communication omnicanale pour piloter la promotion, la production et la diffusion des offres commerciales des principales enseignes de la grande distribution Française.
-
-Après 15 ans et cette fabuleuse expérience nous avons décider de lancer LEAV-Engine, une puissante et moderne data plateforme 100% OPEN SOURCE avec pour objectif de servir un plus large domaine d'applications et démocratiser la gestion des données
 
 {% hint style="info" %}
 LEAV est l'acronyme de Library, Entity, Attribut, Value
 
-En effet, l'une des spécificité du modèle LEAV-Engine est de proposer une fonction avancée permettant une infinité de versions de valeurs ou de relations s’appuyant sur le modèle EAV auquel nous avons ajouté la dimension relationnelle "**L**ibrary".
+En effet, le modèle LEAV-Engine offre en plus des modèles classique, une fonction très avancée permettant de lier à un attributs (Champs), une infinité de versions de valeurs ou de liens. Outre la gestion classique de champs multivalués, cette fonction permet sur un même attribut d'afficher une version des valeurs ou liaisons en fonction de variables.\
+Ces variables peuvent être la langue, pour gérer le multilingue, mais tout autres notions utiles à votre application tels que par exemple des versions de prix en fonction des régions ou Pays sans avoir a multiplier le nombre d'attributs.
+
+Pour mettre en œuvre cette fonction avancé, nous nous sommes inspiré du modèle EAV auquel nous avons ajouté la dimension de Liaison et de [Librairie](presentation-generale/glossary.md)\
+
 {% endhint %}
-
-
 
 ## Quick links
 
