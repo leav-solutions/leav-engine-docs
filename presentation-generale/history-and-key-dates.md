@@ -14,4 +14,4 @@ Key dates
 
 **2020** - ARiSTiD retail tech - want to use our platform to develop their next génération applications for retail&#x20;
 
-**2023** - A new story begins - LEAV Engine and LEAV Data studio beta 1.0 is available.\
+**2023** - LEAV Engine and LEAV Data studio beta is available

@@ -24,9 +24,7 @@ Après avoir installé LEAV-Engine sur votre serveur, l'interface No Code Data-S
 * définir des workflows&#x20;
 * et travailler avec vos équipes immédiatement sur les données et leurs modifications.
 
-LEAV Engine est livré avec un ensemble de fonctions standards et essentielles à toute application de gestion de données, telles que une interface CRUD Pour créer, voir, modifier et supprimer les enregistrement et leurs valeurs, créer des formulaires d'édition différents en fonctions des caractéristiques de chaque enregistrements, et bien plus encore...
-
-#### LEAV Engine est une couche d'abstraction par dessus la base de données Arango DB.
+LEAV Engine est livré avec un ensemble de fonctions courantes et essentielles à toute application de gestion de données, telles que une interface CRUD Pour créer, voir, modifier et supprimer, importer, exporter, gérer des médias, des permissions, et bien plus encore...
 
 
 
