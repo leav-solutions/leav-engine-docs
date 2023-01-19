@@ -24,7 +24,7 @@ LEAV est l'acronyme de Library, Entity, Attribut, Value
 En effet, le modèle LEAV-Engine offre en plus des modèles classique, une fonction très avancée permettant de lier à un attributs (Champs), une infinité de versions de valeurs ou de liens. Outre la gestion classique de champs multivalués, cette fonction permet sur un même attribut d'afficher une version des valeurs ou liaisons en fonction de variables.\
 Ces variables peuvent être la langue, pour gérer le multilingue, mais tout autres notions utiles à votre application tels que par exemple des versions de prix en fonction des régions ou Pays sans avoir a multiplier le nombre d'attributs.
 
-Pour mettre en œuvre cette fonction avancé, nous nous sommes inspiré du modèle EAV auquel nous avons ajouté la dimension de Liaison et de [Librairie](presentation-generale/glossary.md)\
+Pour mettre en œuvre cette fonction avancé, nous nous sommes inspiré du modèle EAV auquel nous avons ajouté la dimension de Liaison et de [Librairie](configuration/data-model/library.md)\
 
 {% endhint %}
 
