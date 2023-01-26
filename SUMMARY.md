@@ -8,7 +8,7 @@
 
 ## Getting started
 
-* [Introduction](getting-started/introduction.md)
+* [What is LEAV Engine?](getting-started/what-is-leav-engine.md)
 * [Install LEAV-Engine](getting-started/install-leav-engine.md)
 * [Data model & Concepts](getting-started/data-model-and-concepts.md)
 * [Files Management Settings](getting-started/files-management-settings.md)
