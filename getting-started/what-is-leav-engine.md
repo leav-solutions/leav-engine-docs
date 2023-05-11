@@ -7,7 +7,7 @@ description: Welcome to the users' documentation
 
 
 {% hint style="success" %}
-**LEAV** is short for **L**ibrary **E**ntity **A**ttribute **V**alue concept
+LEAV is short for **L**ibrary **E**ntity **A**ttribute **V**alue concept
 {% endhint %}
 
 #### LEAV Engine is an opensource solution that lies on top of <mark style="color:green;">Arango-DB</mark>. It makes it easier to create and publish a database application.&#x20;

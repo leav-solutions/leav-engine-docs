@@ -6,17 +6,17 @@ description: >-
 
 # Data model & Concepts
 
-Vos données et vos fichiers restent totalement accessibles par n'importe quel autre moyen ou interface ou code de votre création. LEAV-Engine est une autre façon d'y accéder.
+Vos données et vos fichiers restent totalement accessibles par n'importe qu'elles autres moyen ou interfaces ou codes de votre création. LEAV-Engine est une autre façon d'y accéder.
 
 DATA Studio n'est qu'une interface graphique alimentée par l'API, qui permet aux développeurs, aux utilisateurs professionnels et aux analystes d'avoir un même accès centralisé aux données et aux fichiers.
 
 {% hint style="info" %}
-A la différence de beaucoup de solutions proposées dans la galaxie NoCode & LowCode, LEAV-Engine est basé sur une base de données DOCUMENTS orienté Graph de l'éditeur ARANGO DB OpenSource (Community edition).
+A la différence de beaucoup de solutions proposées dans la galaxy NoCode & LowCode, LEAV-Engine est basé sur une base de données DOCUMENTS orienté Graph de l'éditeur ARANGO DB OpenSource (Community edition).
 {% endhint %}
 
 ## Un modèle de données sous contrôle
 
-#### For performance, the LEAV-Engine data-model has some constrains and prérequisites
+#### For performance, the LEAV-Engine data-model has some constrain and prérequisite
 
 A set of system collections to control the user data model. The need of an identifier in all collections, attributs, trees and any LEAV Engine object.
 
@@ -73,7 +73,7 @@ Considérons que les contacts ci-dessus ont plusieurs N° de téléphone et adre
 Nos explication sont volontairement simplifiée dans le seul but d’illustrer le concept EAV. En effet, il existe une multitude de variantes de ce modèles chacun avec ces avantages et inconvénients. Nous y consacrerons un article dans notre Blog.
 {% endhint %}
 
-### **Quelques généralités sur la base de données documents ArangoDB**
+### **Quelques généralité sur la base de données documents ArangoDB**
 
 Notre propos est de présenter en simplifiant, les similitudes entre une base de données relationnel et documents dans le seul but d’aider un spécialiste de base de données relationnel à ce projeter dans un modèle Document orienté graph.
 
